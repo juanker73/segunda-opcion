@@ -1,0 +1,392 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: chartreuse;
+    text-shadow: 2px 2px 18px white;
+    border-radius: 15px;
+}
+
+body h2 {
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+    margin: 5px;
+}
+
+body h2:hover {
+
+    text-shadow: 2px 2px 30px chartreuse;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: rgb(19, 3, 56);
+    width: 100%;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/1910900.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: rgb(19, 3, 56);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 5%;
+}
+
+.logo {
+    width: 400px;
+    height: 180px;
+    background: none;
+}
+
+.pin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: 25px;
+    box-shadow: 2px 2px 50px white;
+}
+
+.titulo {
+    margin: auto 25%;
+    margin-bottom: 0px;
+}
+
+.nav {
+    background-position: top;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 3, 56);
+    margin-bottom: 150px;
+    width: 100%;
+    background: linear-gradient(rgb(19, 3, 56), rgba(19, 3, 56, 0));
+}
+
+li {
+    list-style: none;
+    margin: auto 8%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+li a {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    margin-top: 20px;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 18px yellow;
+    text-decoration: none;
+    border: solid 2px chartreuse;
+}
+
+.nav a:hover {
+    color: chartreuse;
+    border: solid chartreuse;
+    box-shadow: white 2px 2px 50px;
+    background-color: rgba(128, 255, 0, 0.358);
+    text-shadow: none;
+}
+
+.banner {
+    width: 190px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 35%;
+    box-shadow: 2px 2px 20px black;
+}
+
+.data {
+    text-align: justify;
+}
+
+.sinopsis-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 30px;
+    text-shadow: 2px 2px 3px black;
+    align-items: start;
+    color: chartreuse;
+    border-radius: 15px;
+    background: linear-gradient(rgba(76, 201, 223, 0.258),
+            rgba(33, 9, 87, 0.384));
+    margin: auto 15%;
+    margin-top: 60px;
+}
+
+.sinopsis-text:hover {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    box-shadow: rgb(25, 244, 9) 2px 2px 80px;
+}
+
+#personajes {
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.container-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 0%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+div .grid-item img {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px white;
+
+}
+
+.grid-item {
+    width: 180px;
+    height: 290px;
+    background: linear-gradient(rgba(21, 3, 74, 0.689), rgba(10, 1, 27, 0.703));
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-shadow: none;
+    border: solid 2px white;
+}
+
+.grid-item:hover {
+    box-shadow: chartreuse 1px 1px 30px;
+    color: white;
+    border-color: chartreuse;
+    border: solid 2px chartreuse;
+    background-color: rgb(16, 200, 38);
+}
+
+
+
+.hbo {
+    width: 150px;
+    border-radius: 26px;
+    border: solid 1.8px violet;
+}
+
+.hbo:hover {
+    width: 150px;
+    border: solid 1.8px chartreuse;
+    box-shadow: 2px 2px 111px chartreuse;
+}
+
+.ver-serie {
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    border: solid 2px chartreuse;
+    border-radius: 15px;
+    margin: auto 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: linear-gradient(rgba(19, 3, 56, 0.708), rgb(12, 2, 37));
+    width: 100%;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.git {
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    border: solid 2px white;
+}
+
+.git:hover {
+    box-shadow: 2px 2px 20px white;
+    border: solid 2px chartreuse;
+}
+
+.fac {
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    border: solid 2px white;
+}
+
+.fac:hover {
+    box-shadow: 2px 2px 20px white;
+    border: solid 2px chartreuse;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info {
+    padding: 30px;
+}
+
+.logos {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+    header {
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto 0px;
+        text-align: center;
+        padding: auto 0px;
+        background-size: inherit;
+        margin-bottom: 0px;
+    }
+
+    .logo {
+        width: 280px;
+        height: 120px;
+        padding: 0px;
+        margin: auto 0px;
+    }
+
+    .pin {
+        width: 100px;
+        height: 100px;
+        margin: auto 0px;
+    }
+
+    .titulo {
+        display: block;
+        margin: auto 0%;
+        margin-bottom: 0px;
+    }
+
+    .nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+        background-position: top;
+        margin: auto 0px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding: 30px;
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+
+    li {
+        margin: auto 0px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+
+    .banner {
+        margin: auto 50px;
+        margin-top: 30px;
+        width: 190px;
+        height: 300px;
+    }
+
+    .sinopsis-text {
+        border: none;
+        display: block;
+        align-items: center;
+        margin: auto 20px;
+        margin-top: 60px;
+        padding: auto 0px;
+        width: 90%;
+    }
+
+    #personajes {
+        margin-left: 25%;
+        margin-top: 70px;
+    }
+
+    .container-grid {
+        margin-left: 25%;
+    }
+
+
+    .ver-serie {
+        margin-left: 100px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding: 0px;
+        background-color: rgba(0, 255, 0, 0.075);
+
+    }
+
+    .ver-serie h2 {
+        text-align: center;
+        justify-items: center;
+        margin: auto 0%;
+        padding: 30px;
+        padding: auto 0px;
+    }
+
+    .ver-serie p {
+        margin-left: 0%;
+        margin-bottom: 0px;
+        text-align: center;
+        padding-top: px;
+        text-shadow: 1px 1px 30px white;
+    }
+
+    .ver-serie {
+        text-align: center;
+        border: none;
+    }
+
+    .final {
+        display: block;
+        text-align: center;
+        margin: auto 0px;
+    }
+
+    .logos {
+        margin: auto 0px;
+        align-items: center;
+        padding: 10px;
+    }
+
+    footer {
+        display: block;
+        align-items: center;
+    }
+}
