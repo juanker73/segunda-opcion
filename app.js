@@ -1,6 +1,6 @@
 
 const API_BASE = "https://rickandmortyapi.com/api"
-const API_CHARACTERS = "https://rickandmortyapi.com/api/character"
+const API_CHARACTERS = "https://rickandmortyapi.com/api/character/?page=02"
 
 const llamadaApi = fetch(API_CHARACTERS);
 
